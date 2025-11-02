@@ -71,6 +71,7 @@ int main() {
             printf("You gasp, as you jolt up in your bed. Your back at where the story started. A infinite loop, it seems.");
             waitForEnter();
             printf("You got... the LOOP ending");
+            waitForEnter();
         }
         //Route 1.3
         else if (strcmp(choice, "3") == 0) {
@@ -112,6 +113,7 @@ int main() {
                 printf("A rift between dimensions appears. The figure helps you into it and you get sent off through dimensions\n");
                 waitForEnter();
                 printf("You got.. the DECLINE ending");
+                waitForEnter();
             }
             
             
@@ -130,4 +132,5 @@ int main() {
         waitForEnter();
     }
     
+
 }
